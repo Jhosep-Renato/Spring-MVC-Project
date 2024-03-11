@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Thymeleaf Title</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+<body>
+
+Hello World of Spring Boot
+
+<br><br>
+
+My name is <span th:text="${param.studentName}"/>
+
+</br>
+</br>
+
+The message:
+</br>
+</br>
+
+<span th:text="${message}" class="funny"/>
+
+</body>
+
+</html>
